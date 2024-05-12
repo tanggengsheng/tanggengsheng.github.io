@@ -2,341 +2,370 @@
 ## daolun
 ### h3
 ## h2
-INFO    -  [21:54:26] Reloading browsers
-INFO    -  [21:54:35] Detected file changes
-INFO    -  Building documentation...
-INFO    -  [21:54:35] Reloading browsers
-INFO    -  [21:54:39] Detected file changes
-INFO    -  Building documentation...
-INFO    -  [21:54:39] Reloading browsers
-INFO    -  [21:54:42] Detected file changes
-INFO    -  Building documentation...
-INFO    -  [21:54:42] Reloading browsers
-INFO    -  [21:54:44] Detected file changes
-INFO    -  Building documentation...
-INFO    -  [21:54:44] Reloading browsers
-INFO    -  [21:54:46] Detected file changes
-INFO    -  Building documentation...
-INFO    -  [21:54:46] Reloading browsers
-INFO    -  [21:57:14] Detected file changes
-INFO    -  Building documentation...
-INFO    -  [21:57:14] Reloading browsers
-INFO    -  [21:57:19] Detected file changes
-INFO    -  Building documentation...
-INFO    -  [21:57:20] Reloading browsers
-INFO    -  [21:57:20] Browser connected: http://127.0.0.1:8000/
-INFO    -  [21:57:21] Browser connected: http://127.0.0.1:8000/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/
-INFO    -  [21:57:55] Detected file changes
-INFO    -  Building documentation...
-INFO    -  [21:57:55] Reloading browsers
-INFO    -  [21:57:55] Browser connected: http://127.0.0.1:8000/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/
-INFO    -  [21:57:57] Browser connected: http://127.0.0.1:8000/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/
-INFO    -  [21:58:00] Browser connected: http://127.0.0.1:8000/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/
-INFO    -  [21:58:00] Browser connected: http://127.0.0.1:8000/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/
-INFO    -  [21:58:01] Browser connected: http://127.0.0.1:8000/
-INFO    -  [21:58:02] Browser connected: http://127.0.0.1:8000/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/
-INFO    -  [21:58:11] Detected file changes
-INFO    -  Building documentation...
-INFO    -  [21:58:12] Reloading browsers
-INFO    -  [21:58:12] Browser connected: http://127.0.0.1:8000/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/
-INFO    -  [21:58:16] Detected file changes
-INFO    -  Building documentation...
-INFO    -  [21:58:17] Reloading browsers
-INFO    -  [21:58:17] Browser connected: http://127.0.0.1:8000/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/
-INFO    -  [21:58:19] Detected file changes
-INFO    -  Building documentation...
-INFO    -  [21:58:19] Reloading browsers
-INFO    -  [21:58:19] Browser connected: http://127.0.0.1:8000/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/
-INFO    -  [21:58:51] Browser connected: http://127.0.0.1:8000/
-^CINFO    -  Shutting down...
-❯ mkdocs gh-deploy --force
-INFO    -  Cleaning site directory
-INFO    -  Building documentation to directory: /home/tgs/blog/csdiy.impl/site
-INFO    -  Documentation built in 0.22 seconds
-ERROR   -  Cannot deploy - this directory does not appear to be a git repository
-WARNING -  Version check skipped: No version specified in previous deployment.
-INFO    -  Copying '/home/tgs/blog/csdiy.impl/site' to 'gh-pages' branch and pushing to GitHub.
-ERROR   -  Failed to deploy to GitHub with error:
-           not a git repository (or any of the parent directories): .git
-
-Deployment Aborted!
-❯ git init .
-hint: Using 'master' as the name for the initial branch. This default branch name
-hint: is subject to change. To configure the initial branch name to use in all
-hint: of your new repositories, which will suppress this warning, call:
-hint:
-hint:   git config --global init.defaultBranch <name>
-hint:
-hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
-hint: 'development'. The just-created branch can be renamed via this command:
-hint:
-hint:   git branch -m <name>
-Initialized empty Git repository in /home/tgs/blog/csdiy.impl/.git/
-❯ mkdocs gh-deploy --force
-INFO    -  Cleaning site directory
-INFO    -  Building documentation to directory: /home/tgs/blog/csdiy.impl/site
-INFO    -  Documentation built in 0.22 seconds
-WARNING -  Version check skipped: No version specified in previous deployment.
-INFO    -  Copying '/home/tgs/blog/csdiy.impl/site' to 'gh-pages' branch and pushing to GitHub.
-fatal: 'origin' does not appear to be a git repository
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-Traceback (most recent call last):
-  File "/home/tgs/.env/csdiy.impl/bin/mkdocs", line 8, in <module>
-    sys.exit(cli())
-             ^^^^^
-  File "/home/tgs/.env/csdiy.impl/lib/python3.12/site-packages/click/core.py", line 1157, in __call__
-    return self.main(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/tgs/.env/csdiy.impl/lib/python3.12/site-packages/click/core.py", line 1078, in main
-    rv = self.invoke(ctx)
-         ^^^^^^^^^^^^^^^^
-  File "/home/tgs/.env/csdiy.impl/lib/python3.12/site-packages/click/core.py", line 1688, in invoke
-    return _process_result(sub_ctx.command.invoke(sub_ctx))
-                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/tgs/.env/csdiy.impl/lib/python3.12/site-packages/click/core.py", line 1434, in invoke
-    return ctx.invoke(self.callback, **ctx.params)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/tgs/.env/csdiy.impl/lib/python3.12/site-packages/click/core.py", line 783, in invoke
-    return __callback(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/tgs/.env/csdiy.impl/lib/python3.12/site-packages/mkdocs/__main__.py", line 314, in gh_deploy_command
-    gh_deploy.gh_deploy(
-  File "/home/tgs/.env/csdiy.impl/lib/python3.12/site-packages/mkdocs/commands/gh_deploy.py", line 129, in gh_deploy
-    ghp_import.ghp_import(
-  File "/home/tgs/.env/csdiy.impl/lib/python3.12/site-packages/ghp_import.py", line 283, in ghp_import
-    git.check_call('push', opts['remote'], opts['branch'], '--force')
-  File "/home/tgs/.env/csdiy.impl/lib/python3.12/site-packages/ghp_import.py", line 119, in check_call
-    sp.check_call(['git'] + list(args), **kwargs)
-  File "/usr/lib/python3.12/subprocess.py", line 413, in check_call
-    raise CalledProcessError(retcode, cmd)
-subprocess.CalledProcessError: Command '['git', 'push', 'origin', 'gh-pages', '--force']' returned non-zero exit status 128.
-❯ git remote add origin git@github.com:tanggengsheng/tanggengsheng.github.io.git
-❯ git branch -M master
-❯ git push -u origin master
-error: src refspec master does not match any
-error: failed to push some refs to 'github.com:tanggengsheng/tanggengsheng.github.io.git'
-❯ git push -u origin master
-error: src refspec master does not match any
-error: failed to push some refs to 'github.com:tanggengsheng/tanggengsheng.github.io.git'
-❯ git push -u origin main
-error: src refspec main does not match any
-error: failed to push some refs to 'github.com:tanggengsheng/tanggengsheng.github.io.git'
-❯ git push -u origin master
-error: src refspec master does not match any
-error: failed to push some refs to 'github.com:tanggengsheng/tanggengsheng.github.io.git'
-❯ git remote -v
-origin  git@github.com:tanggengsheng/tanggengsheng.github.io.git (fetch)
-origin  git@github.com:tanggengsheng/tanggengsheng.github.io.git (push)
-❯ git push  origin master
-error: src refspec master does not match any
-error: failed to push some refs to 'github.com:tanggengsheng/tanggengsheng.github.io.git'
-❯ git push -u origin master
-error: src refspec master does not match any
-error: failed to push some refs to 'github.com:tanggengsheng/tanggengsheng.github.io.git'
-❯ gst
-On branch master
-
-No commits yet
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        docs/
-        mkdocs.yml
-        site/
-
-nothing added to commit but untracked files present (use "git add" to track)
-❯ git add .
-❯ git push -u origin master
-error: src refspec master does not match any
-error: failed to push some refs to 'github.com:tanggengsheng/tanggengsheng.github.io.git'
-❯ git commit -m "test"
-[master (root-commit) e7c506b] test
- 54 files changed, 9419 insertions(+)
- create mode 100644 docs/index.md
- create mode 100644 "docs/\346\223\215\344\275\234\347\263\273\347\273\237/index.md"
- create mode 100644 "docs/\350\256\241\347\256\227\346\234\272\347\275\221\347\273\234/index.md"
- create mode 100644 mkdocs.yml
- create mode 100644 site/404.html
- create mode 100644 site/assets/images/favicon.png
- create mode 100644 site/assets/javascripts/bundle.a7c05c9e.min.js
- create mode 100644 site/assets/javascripts/bundle.a7c05c9e.min.js.map
- create mode 100644 site/assets/javascripts/lunr/min/lunr.ar.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.da.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.de.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.du.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.el.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.es.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.fi.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.fr.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.he.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.hi.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.hu.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.hy.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.it.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.ja.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.jp.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.kn.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.ko.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.multi.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.nl.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.no.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.pt.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.ro.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.ru.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.sa.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.stemmer.support.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.sv.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.ta.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.te.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.th.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.tr.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.vi.min.js
- create mode 100644 site/assets/javascripts/lunr/min/lunr.zh.min.js
- create mode 100644 site/assets/javascripts/lunr/tinyseg.js
- create mode 100644 site/assets/javascripts/lunr/wordcut.js
- create mode 100644 site/assets/javascripts/workers/search.b8dbb3d2.min.js
- create mode 100644 site/assets/javascripts/workers/search.b8dbb3d2.min.js.map
- create mode 100644 site/assets/stylesheets/main.66ac8b77.min.css
- create mode 100644 site/assets/stylesheets/main.66ac8b77.min.css.map
- create mode 100644 site/assets/stylesheets/palette.06af60db.min.css
- create mode 100644 site/assets/stylesheets/palette.06af60db.min.css.map
- create mode 100644 site/index.html
- create mode 100644 site/search/search_index.json
- create mode 100644 site/sitemap.xml
- create mode 100644 site/sitemap.xml.gz
- create mode 100644 "site/\346\223\215\344\275\234\347\263\273\347\273\237/index.html"
- create mode 100644 "site/\350\256\241\347\256\227\346\234\272\347\275\221\347\273\234/index.html"
-❯ git push -u origin master
-Enumerating objects: 70, done.
-Counting objects: 100% (70/70), done.
-Delta compression using up to 6 threads
-Compressing objects: 100% (61/61), done.
-Writing objects: 100% (70/70), 575.09 KiB | 1.43 MiB/s, done.
-Total 70 (delta 6), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (6/6), done.
-To github.com:tanggengsheng/tanggengsheng.github.io.git
- * [new branch]      master -> master
-branch 'master' set up to track 'origin/master'.
-❯ mkdocs gh-deploy --force
-INFO    -  Cleaning site directory
-INFO    -  Building documentation to directory: /home/tgs/blog/csdiy.impl/site
-INFO    -  Documentation built in 0.22 seconds
-INFO    -  Copying '/home/tgs/blog/csdiy.impl/site' to 'gh-pages' branch and pushing to GitHub.
-Enumerating objects: 64, done.
-Counting objects: 100% (64/64), done.
-Delta compression using up to 6 threads
-Compressing objects: 100% (58/58), done.
-Writing objects: 100% (64/64), 574.41 KiB | 1.37 MiB/s, done.
-Total 64 (delta 7), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (7/7), done.
-remote:
-remote: Create a pull request for 'gh-pages' on GitHub by visiting:
-remote:      https://github.com/tanggengsheng/tanggengsheng.github.io/pull/new/gh-pages
-remote:
-To github.com:tanggengsheng/tanggengsheng.github.io.git
- * [new branch]      gh-pages -> gh-pages
-INFO    -  Your documentation should shortly be available at: https://tanggengsheng.github.io/tanggengsheng.github.io/
-❯ gst
-On branch master
-Your branch is up to date with 'origin/master'.
-
-nothing to commit, working tree clean
-❯ gst
-On branch master
-Your branch is up to date with 'origin/master'.
-
-nothing to commit, working tree clean
-❯ mkdocs gh-deploy --force
-INFO    -  Cleaning site directory
-INFO    -  Building documentation to directory: /home/tgs/blog/csdiy.impl/site
-INFO    -  Documentation built in 0.23 seconds
-INFO    -  Copying '/home/tgs/blog/csdiy.impl/site' to 'gh-pages' branch and pushing to GitHub.
-Enumerating objects: 1, done.
-Counting objects: 100% (1/1), done.
-Writing objects: 100% (1/1), 213 bytes | 213.00 KiB/s, done.
-Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
-To github.com:tanggengsheng/tanggengsheng.github.io.git
-   e2e3f25..a3248dc  gh-pages -> gh-pages
-INFO    -  Your documentation should shortly be available at: https://tanggengsheng.github.io/tanggengsheng.github.io/
-❯ ls
-docs  mkdocs.yml  site
-❯ mkdocs gh-deploy --force
-INFO    -  Cleaning site directory
-INFO    -  Building documentation to directory: /home/tgs/blog/csdiy.impl/site
-INFO    -  Documentation built in 0.22 seconds
-INFO    -  Copying '/home/tgs/blog/csdiy.impl/site' to 'gh-pages' branch and pushing to GitHub.
-Enumerating objects: 1, done.
-Counting objects: 100% (1/1), done.
-Writing objects: 100% (1/1), 213 bytes | 213.00 KiB/s, done.
-Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
-To github.com:tanggengsheng/tanggengsheng.github.io.git
-   a3248dc..19e56f4  gh-pages -> gh-pages
-INFO    -  Your documentation should shortly be available at: https://tanggengsheng.github.io/tanggengsheng.github.io/
-
-❯ ls
-docs  mkdocs.yml  site
-❯ ls -a
-.  ..  .git  docs  mkdocs.yml  site
-❯ mkdir .github
-❯ cd .github
-❯ mkdir workflow
-❯ cd workflow
-❯ vi ci.yml
-❯ cd ../../
-❯ git add *
-'%                                                                                                                      ❯ git commit -m "test"
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        .github/
-
-nothing added to commit but untracked files present (use "git add" to track)
-❯ gst
-On branch master
+### hjdkj
 ```c++
-#include <iostream>
-using namespace std;
 
-int main()
-{
-    std::cout << "Hello World" << std::endl;
-    return 0;
+#include "gtest/gtest.h"
+#include "gmock/gmock.h"
+#include "hw1.h"
+
+/*
+TEST(HW1Test, ZEROS) {
+    Matrix matrix{algebra::zeros(5, 6)};
+
+    // check the size of the matrix
+    EXPECT_EQ(matrix.size(), 5);
+    EXPECT_EQ(matrix[0].size(), 6);
+
+    // check the value of the elements
+    for (const auto& row : matrix)
+        for (const auto& elem : row)
+            EXPECT_DOUBLE_EQ(elem, 0);
 }
+
+TEST(HW1Test, ONES) {
+    Matrix matrix{algebra::ones(7, 3)};
+
+    // check the size of the matrix
+    EXPECT_EQ(matrix.size(), 7);
+    EXPECT_EQ(matrix[0].size(), 3);
+
+    // check the value of the elements
+    for (const auto& row : matrix)
+        for (const auto& elem : row)
+            EXPECT_DOUBLE_EQ(elem, 1);
+}
+
+TEST(HW1Test, RANDOM1) {
+    using ::testing::AllOf;
+    using ::testing::Ge;
+    using ::testing::Lt;
+
+    Matrix matrix{algebra::random(4, 4, -5, 7)};
+
+    // check the size of the matrix
+    EXPECT_EQ(matrix.size(), 4);
+    EXPECT_EQ(matrix[0].size(), 4);
+
+    // check the value of the elements
+    for (const auto& row : matrix)
+        for (const auto& elem : row)
+            EXPECT_THAT(elem, AllOf(Ge(-5.0), Lt(7)));
+
+    // show the matrix to test algebra::show function
+    std::cout << "random matrix [-5, 7)" << std::endl;
+    algebra::show(matrix);
+    std::cout << std::endl;
+}
+
+TEST(HW1Test, RANDOM2) {
+    // Caution: min cannot be greater than max
+    EXPECT_THROW(algebra::random(3, 4, 4, 2), std::logic_error);
+}
+
+TEST(HW1Test, MULTIPLY1) {
+    Matrix matrix{algebra::random(3, 4, -4, 2)};
+    Matrix mult{algebra::multiply(matrix, 3.5)};
+
+    // check the size of the matrix
+    EXPECT_EQ(mult.size(), 3);
+    EXPECT_EQ(mult[0].size(), 4);
+
+    // check the value of the elements
+    for (size_t i{}; i < mult.size(); i++)
+        for (size_t j{}; j < mult[i].size(); j++)
+            EXPECT_NEAR(mult[i][j], matrix[i][j]*3.5, 0.03);
+}
+
+TEST(HW1Test, MULTIPLY2) {
+    // Caution: multiplication of 2 empty matrix
+    Matrix matrix{algebra::multiply(Matrix{}, Matrix{})};
+    EXPECT_TRUE(matrix.empty());
+
+    // Caution: matrices with wrong dimensions cannot be multiplied
+    EXPECT_THROW(algebra::multiply(Matrix{{1, 2, 3}, {4, 5, 6}}, Matrix{{1, 2, 3}, {4, 5, 6}}), std::logic_error);
+}
+
+TEST(HW1Test, MULTIPLY3) {
+    Matrix matrix1{{-3, 3, 1.7}, {4, -4, 2.6}, {-5, 5, 3.5}};
+    Matrix matrix2{{2.5}, {-2}, {-5.5}};
+    Matrix matrix{algebra::multiply(matrix1, matrix2)};
+
+    // check the size of the matrix
+    EXPECT_EQ(matrix.size(), 3);
+    EXPECT_EQ(matrix[0].size(), 1);
+
+    // check the value of the elements
+    EXPECT_NEAR(matrix[0][0], -22.85, 0.03);
+    EXPECT_NEAR(matrix[1][0], 3.7, 0.03);
+    EXPECT_NEAR(matrix[2][0], -41.75, 0.03);
+}
+
+TEST(HW1Test, MULTIPLY4) {
+    Matrix matrix1{{-3, 2, 1.7}, {4, -5, 2.6}, {7.2, 5, 3.5}};
+    Matrix matrix2{{6.5}, {-2}, {-5}};
+    Matrix matrix{algebra::multiply(matrix1, matrix2)};
+
+    // check the size of the matrix
+    EXPECT_EQ(matrix.size(), 3);
+    EXPECT_EQ(matrix[0].size(), 1);
+
+    // check the value of the elements
+    EXPECT_NEAR(matrix[0][0], -32, 0.03);
+    EXPECT_NEAR(matrix[1][0], 23, 0.03);
+    EXPECT_NEAR(matrix[2][0], 19.3, 0.03);
+}
+
+TEST(HW1Test, SUM1) {
+    // Caution: sum of an empty matrix
+    EXPECT_TRUE(algebra::sum(Matrix{}, 1.5).empty());
+
+    Matrix matrix{algebra::random(2, 5, 0, 4)};
+    Matrix sum{algebra::sum(matrix, 2.44)};
+
+    // check the size of the matrix
+    EXPECT_EQ(sum.size(), 2);
+    EXPECT_EQ(sum[0].size(), 5);
+
+    // check the value of the elements
+    for (size_t i{}; i < sum.size(); i++)
+        for (size_t j{}; j < sum[i].size(); j++)
+            EXPECT_NEAR(sum[i][j], matrix[i][j]+2.44, 0.03);
+}
+
+TEST(HW1Test, SUM2) {
+    // Caution: sum of 2 empty matrices
+    EXPECT_TRUE(algebra::sum(Matrix{}, Matrix{}).empty());
+
+    // Caution: matrices with wrong dimensions cannot be summed
+    EXPECT_THROW(algebra::sum(Matrix{{1, 2, 3}}, Matrix{}), std::logic_error);
+
+    Matrix matrix1{algebra::random(3, 2, -1, 4)};
+    Matrix matrix2{algebra::random(3, 2, -8, -3)};
+    Matrix sum{algebra::sum(matrix1, matrix2)};
+
+    // check the size of the matrix
+    EXPECT_EQ(sum.size(), 3);
+    EXPECT_EQ(sum[0].size(), 2);
+
+    // check the value of the elements
+    for (size_t i{}; i < sum.size(); i++)
+        for (size_t j{}; j < sum[i].size(); j++)
+            EXPECT_NEAR(sum[i][j], matrix1[i][j]+matrix2[i][j], 0.03);
+}
+
+TEST(HW1Test, TRANSPOSE) {
+    // Caution: transpose of an empty matrix is an empty matrix
+    EXPECT_TRUE(algebra::transpose(Matrix{}).empty());
+
+    Matrix matrix{algebra::random(3, 5, -2, 5)};
+    Matrix transpose = algebra::transpose(matrix);
+
+    // check the size of the matrix
+    EXPECT_EQ(transpose.size(), 5);
+    EXPECT_EQ(transpose[0].size(), 3);
+
+    // check the value of the elements
+    for (size_t i{}; i < transpose.size(); i++)
+        for (size_t j{}; j < transpose[i].size(); j++)
+            EXPECT_DOUBLE_EQ(transpose[i][j], matrix[j][i]);
+}
+
+TEST(HW1Test, MINOR1) {
+    Matrix matrix{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    Matrix minor = algebra::minor(matrix, 1, 2);
+
+    // check the size of the matrix
+    EXPECT_EQ(minor.size(), 2);
+    EXPECT_EQ(minor[0].size(), 2);
+
+    // check the value of the elements
+    EXPECT_DOUBLE_EQ(minor[0][0], matrix[0][0]);
+    EXPECT_DOUBLE_EQ(minor[0][1], matrix[0][1]);
+    EXPECT_DOUBLE_EQ(minor[1][0], matrix[2][0]);
+    EXPECT_DOUBLE_EQ(minor[1][1], matrix[2][1]);
+}
+
+TEST(HW1Test, MINOR2) {
+    Matrix matrix{{7, 2.5, 3.1}, {4.2, 5, 10.4}, {70.7, 8, 0}};
+    Matrix minor = algebra::minor(matrix, 1, 1);
+
+    // check the size of the matrix
+    EXPECT_EQ(minor.size(), 2);
+    EXPECT_EQ(minor[0].size(), 2);
+
+    // check the value of the elements
+    EXPECT_DOUBLE_EQ(minor[0][0], matrix[0][0]);
+    EXPECT_DOUBLE_EQ(minor[0][1], matrix[0][2]);
+    EXPECT_DOUBLE_EQ(minor[1][0], matrix[2][0]);
+    EXPECT_DOUBLE_EQ(minor[1][1], matrix[2][2]);
+}
+
+TEST(HW1Test, DETERMINANT1) {
+    // Caution: determinant of an empty matrix
+    EXPECT_EQ(algebra::determinant(Matrix{}), 1);
+
+    // Caution: non-square matrices have no determinant
+    EXPECT_THROW(algebra::determinant(Matrix{{1, 2, 3}, {4, 5, 6}}), std::logic_error);
+
+    // test case
+    Matrix matrix{{-1, 1.5, -1.75, -2}, {-2, 2.5, -2.75, -3}, {3, 3.5, -3.75, -4}, {4, 4.5, 4.75, -5}};
+    EXPECT_NEAR(algebra::determinant(matrix), -28.5, 0.03);
+}
+
+TEST(HW1Test, DETERMINANT2) {
+    // test case
+    Matrix matrix{{1, 1.5, -1.75, 2}, {2, 2.5, -2.75, 3}, {3, 3.5, -3.75, 4}, {4, 4.5, 4.75, 5}};
+    EXPECT_DOUBLE_EQ(algebra::determinant(matrix), 0);
+}
+
+TEST(HW1Test, INVERSE1) {
+    // Caution: inverse of an empty matrix
+    EXPECT_TRUE(algebra::inverse(Matrix{}).empty());
+
+    // Caution: non-square matrices have no inverse
+    EXPECT_THROW(algebra::inverse(Matrix{{1, 2, 3}, {40, 5, -6}}), std::logic_error);
+
+    // Caution: singular matrices have no inverse
+    Matrix non_singular_matrix{{1, 1.5, -1.75, 2}, {2, 2.5, -2.75, 3}, {3, 3.5, -3.75, 4}, {4, 4.5, 4.75, 5}};
+    EXPECT_THROW(algebra::inverse(non_singular_matrix), std::logic_error);
+
+    // test case
+    Matrix matrix{{-1, 1.5, -1.75, -2}, {-2, 2.5, -2.75, -3}, {3, 3.5, -3.75, -4}, {4, 4.5, 4.75, -5}};
+    Matrix inverse{algebra::inverse(matrix)};
+    EXPECT_NEAR(inverse[0][0], 0.16, 0.03);
+    EXPECT_NEAR(inverse[1][1], 3.31, 0.03);
+    EXPECT_NEAR(inverse[3][1], 2.67, 0.03);
+    EXPECT_NEAR(inverse[0][3], 0, 0.03);
+}
+
+
+TEST(HW1Test, INVERSE2) {
+    // test case
+    Matrix matrix{{-12, 1.5, -1.75, -2}, {-2, 2.5, -2.75, -3}, {25, 3.5, -3.75, -4}, {4, 4.5, 4.75, -51}};
+    Matrix inverse{algebra::inverse(matrix)};
+    EXPECT_NEAR(inverse[0][0], 0.05, 0.03);
+    EXPECT_NEAR(inverse[1][1], 18.07, 0.03);
+    EXPECT_NEAR(inverse[3][1], 2.80, 0.03);
+    EXPECT_NEAR(inverse[0][3], 0, 0.03);
+}
+
+TEST(HW1Test, CONCATENATE1) {
+    // Caution: matrices with wrong dimensions cannot be concatenated
+    EXPECT_THROW(algebra::concatenate(Matrix{{1, 2}}, Matrix{{1, 2, 3}, {4, 5, 6}}, 0), std::logic_error);
+
+    // test case
+    Matrix matrix1{algebra::random(2, 3, 0, 1)};
+    Matrix matrix2{algebra::random(4, 3, 0, 1)};
+    Matrix matrix{algebra::concatenate(matrix1, matrix2, 0)};
+
+    // check the size of the matrix
+    EXPECT_EQ(matrix.size(), 6);
+    EXPECT_EQ(matrix[0].size(), 3);
+
+    // check the value of the elements
+    EXPECT_DOUBLE_EQ(matrix[0][0], matrix1[0][0]);
+    EXPECT_DOUBLE_EQ(matrix[1][2], matrix1[1][2]);
+    EXPECT_DOUBLE_EQ(matrix[2][0], matrix2[0][0]);
+    EXPECT_DOUBLE_EQ(matrix[5][2], matrix2[3][2]);
+
+}
+
+TEST(HW1Test, CONCATENATE2) {
+    // Caution: matrices with wrong dimensions cannot be concatenated
+    EXPECT_THROW(algebra::concatenate(Matrix{{1, 2}}, Matrix{{1, 2, 3}, {4, 5, 6}}, 1), std::logic_error);
+
+    // test case
+    Matrix matrix1{algebra::random(2, 3, 0, 1)};
+    Matrix matrix2{algebra::random(2, 1, 0, 1)};
+    Matrix matrix{algebra::concatenate(matrix1, matrix2, 1)};
+
+    // check the size of the matrix
+    EXPECT_EQ(matrix.size(), 2);
+    EXPECT_EQ(matrix[0].size(), 4);
+
+    // check the value of the elements
+    EXPECT_DOUBLE_EQ(matrix[0][0], matrix1[0][0]);
+    EXPECT_DOUBLE_EQ(matrix[1][2], matrix1[1][2]);
+    EXPECT_DOUBLE_EQ(matrix[0][3], matrix2[0][0]);
+    EXPECT_DOUBLE_EQ(matrix[1][3], matrix2[1][0]);
+}
+
+TEST(HW1Test, ERO_SWAP) {
+    // Caution: r1 or r2 inputs are out of range
+    EXPECT_THROW(algebra::ero_swap(Matrix{{1, 2}}, 0, 1), std::logic_error);
+
+    // test case
+    Matrix matrix{algebra::random(4, 3, 0, 4)};
+    Matrix swap{algebra::ero_swap(matrix, 2, 3)};
+
+    // check the swap
+    EXPECT_TRUE(swap[0] == matrix[0]);
+    EXPECT_TRUE(swap[1] == matrix[1]);
+    EXPECT_TRUE(swap[2] == matrix[3]);
+    EXPECT_TRUE(swap[3] == matrix[2]);
+}
+
+TEST(HW1Test, ERO_MULTIPLY) {
+    Matrix matrix{algebra::random(4, 3, 0, 4)};
+    Matrix ero{algebra::ero_multiply(matrix, 2, 1.5)};
+
+    EXPECT_TRUE(ero[0] == matrix[0]);
+    EXPECT_TRUE(ero[1] == matrix[1]);
+    EXPECT_TRUE(ero[3] == matrix[3]);
+
+    // check the value of the elements
+    for (size_t i{}; i < ero[2].size(); i++)
+        EXPECT_NEAR(ero[2][i], matrix[2][i]*1.5, 0.03);
+}
+
+TEST(HW1Test, ERO_SUM) {
+    Matrix matrix{algebra::random(4, 3, 0, 4)};
+    Matrix ero{algebra::ero_sum(matrix, 0, 2, 3)};
+
+    EXPECT_TRUE(ero[0] == matrix[0]);
+    EXPECT_TRUE(ero[1] == matrix[1]);
+    EXPECT_TRUE(ero[2] == matrix[2]);
+
+    // check the value of the elements
+    for (size_t i{}; i < ero[3].size(); i++)
+        EXPECT_NEAR(ero[3][i], matrix[0][i]*2+matrix[3][i], 0.03);
+}
+
+TEST(HW1Test, UPPER_TRIANGULAR1) {
+    // Caution: empty matrix
+    EXPECT_TRUE(algebra::upper_triangular(Matrix{}).empty());
+
+    // Caution: non-square matrices have no upper triangular form
+    EXPECT_THROW(algebra::upper_triangular(Matrix{{1, 2, 3}, {4, 5, 6}}), std::logic_error);
+
+    // test case 1
+    Matrix matrix1{{1, 2}, {5, 7}};
+    Matrix res1{algebra::upper_triangular(matrix1)};
+    EXPECT_NEAR(res1[0][0], 1, 0.03);
+    EXPECT_NEAR(res1[1][0], 0, 0.03);
+    EXPECT_NEAR(res1[1][1], -3, 0.03);
+
+    // test case 2
+    Matrix matrix2{{1, 2, 3}, {4, 7, 5}, {6, 1, 3}};
+    Matrix res2{algebra::upper_triangular(matrix2)};
+    EXPECT_NEAR(res2[0][0], 1, 0.03);
+    EXPECT_NEAR(res2[1][0], 0, 0.03);
+    EXPECT_NEAR(res2[2][0], 0, 0.03);
+    EXPECT_NEAR(res2[2][1], 0, 0.03);
+    EXPECT_NEAR(res2[2][2], 62, 0.03);
+}
+
+TEST(HW1Test, BONUS) {
+    // test case
+    Matrix matrix2{{0, 2, 3}, {4, 7, 5}, {6, 1, 3}};
+    Matrix res2{algebra::upper_triangular(matrix2)};
+    EXPECT_NEAR(res2[0][0], 4, 0.03);
+    EXPECT_NEAR(res2[1][0], 0, 0.03);
+    EXPECT_NEAR(res2[2][0], 0, 0.03);
+    EXPECT_NEAR(res2[2][1], 0, 0.03);
+    EXPECT_NEAR(res2[2][2], 39/4.0, 0.03);
+}
+*/
+
 ```
-Your branch is up to date with 'origin/master'.
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        .github/
-
-nothing added to commit but untracked files present (use "git add" to track)
-❯ git add .
-❯ gst
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        new file:   .github/workflow/ci.yml
-
-❯ git commit -m "test"
-[master 4406d78] test
- 1 file changed, 29 insertions(+)
- create mode 100644 .github/workflow/ci.yml
-❯ git push  origin master
-Enumerating objects: 6, done.
-Counting objects: 100% (6/6), done.
-Delta compression using up to 6 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (5/5), 792 bytes | 264.00 KiB/s, done.
-Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
-To github.com:tanggengsheng/tanggengsheng.github.io.git
-   e7c506b..4406d78  master -> master
-
-~/blog/csdiy.impl master                                                                            csdiy.impl 22:36:34
-❯
